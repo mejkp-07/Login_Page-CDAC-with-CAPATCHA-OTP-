@@ -6,16 +6,20 @@
 
 
 
-### This Project is made using React (Frontend) and Node.js (Backend) by connecting it with PostgreSQL Database. Additionally I have added the feature of entering capatcha in Login form.
+### This Project is made using React (Frontend) and Node.js (Backend) by connecting it with PostgreSQL Database. Additionally I have added the feature of entering capatcha and OTP verification in Login form and Register form respectively. 
+
+## Note
+
+Please once check you accountSid, authToken in server.js. It should match with your actual accountSid, authToken given in your Twilio account (https://console.twilio.com/?frameUrl=%2Fconsole%3Fx-target-region%3Dus1). 
 
 ## Clone the Project
 ```bash
- git clone https://github.com/mejkp-07/Login_Page-CDAC-with-CAPATCHA-.git
+ git clone https://github.com/mejkp-07/Login_Page-CDAC-with-CAPATCHA-OTP-.git
 ```
 ## Go inside this Project
 
 ```bash
- cd Login_Page-CDAC-with-CAPATCHA-
+ cd Login_Page-CDAC-with-CAPATCHA-OTP-
  ```
  ## Install Packages
 

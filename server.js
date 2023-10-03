@@ -21,7 +21,7 @@ const SITE_SECRET = '6Ld9tWAoAAAAAJ14Ojt1n-zBddtIxrBw-Xq8-5Tb'
 app.post('/send-otp', async (req, res) => {
     const { mobile, otp } = req.body;
     const accountSid = 'AC53c120bbecab8b67720173051812cbd0';
-    const authToken = '886351858bf479d0e4d20c489f2201ae';
+    const authToken = 'ec356f2e6d09578ab9595d341c9a083b';
     const client = require('twilio')(accountSid, authToken);
     // Use Twilio to send OTP to the provided mobile number
     client.messages

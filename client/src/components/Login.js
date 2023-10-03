@@ -16,7 +16,7 @@ function Login() {
     const handleLogin = async (event) => {
         event.preventDefault();
         const captchaValue = recaptcha.current.getValue();
-        alert(captchaValue)
+        //alert(captchaValue)
         if (!captchaValue) {
             alert("Please verify the reCAPTCHA!");
         } else {
